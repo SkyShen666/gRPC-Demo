@@ -12,6 +12,7 @@ import (
 )
 
 // 定义一个authServer结构体
+// 111
 type authServer struct{}
 
 func (as *authServer) AuthLogin(stream pb.AUTH_AuthLoginServer) error {
